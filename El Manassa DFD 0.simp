@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="14.70" multi-file="no" uid="simpa73eeb6154c9481cba0bce9dc49f71aa" creation-date="11/23/2026 21:42:42">
+  <meta>
+    <name>El Manassa</name>
+    <authors> </authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type type-id="dfd-process" type="Process" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type type-id="dfd-external" type="External" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="text" type="Text" />
+        <value>2</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="dfd-process" type="Process" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="dfd-external" type="External" />
+        <value>4</value>
+      </counter>
+      <counter>
+        <item-type type-id="universal-connector" type="Universal Connector" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="dfd-data-flow" type="Data Flow" />
+        <value>15</value>
+      </counter>
+      <counter>
+        <item-type type-id="text" type="Text" />
+        <value>5</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.Other.DataFlowDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields />
+  </counters>
+  <alias-groups />
+  <management uid="md-b27ebc5032db48beb80842ddabc7e4da" name="" task-id-sequence="0">
+    <working-schedule uid="ws-6bdbd20e8ffa4237a0e4f092ed341eaf" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+    <persons>
+      <person id="">
+        <first-name />
+        <last-name />
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+        <working-schedule uid="ws-1101654e4cc24bd0b78281b9e1a4b059" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-7a345cf80c9e43a7ad443f47f00cc502" name="" order-index="-1" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <parameters />
+      <types />
+    </custom-types>
+  </types>
+  <items>
+    <item id="5884ca07e592411ba63d3f1e54b2c3ed" cid="2" type="dfd-process" name="Process (عملية / النظام)" creation-date="11/23/2026 23:00:00" />
+    <item id="88504406b13d478893bc73b5ee6f97f2" cid="DFE004" type="dfd-external" name="External Entity (كيان خارجي)" creation-date="11/23/2026 23:00:00" />
+    <item id="dfedfd86ac774ed183c2e9a5998fd7b8" cid="DFF015" type="dfd-data-flow" name="Data Flow (تدفق بيانات)" creation-date="11/23/2026 23:00:00" />
+  </items>
+  <models>
+    <model id="p2b8171431e224c91bba2bb218a378656_920331281" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>11/23/2026 21:43:00</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="data-flow" id="pd1240d374b9445db8c06b9c199c3e6d2_113793863" name="Context Diagram (DFD Level 0)" order-index="1" uid="" name-style="" auto-routed-paths="false" default-line-style="default" view-location="28,123" zoom="0.7306">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>11/23/2026 21:43:00</creation-date>
+          <change-date>11/23/2026 23:08:35</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="432b6da4a388415a9d1d6fb076c9ca59" cid="DFF014" type="dfd-data-flow" name="Linked Student Grades, Assignments &amp; Progress Only" creator="" creation-date="11/23/2026 23:00:00" from="43251ffd1c67468293df2783c15338a4" to="a7a46b6b0b88453f9221187166df1fec" />
+          <item id="43251ffd1c67468293df2783c15338a4" cid="1" type="dfd-process" name=" 0 El Manassa System" creator="" creation-date="11/23/2026 23:00:00" />
+          <item id="22b329e8c0654ce3affdca41c719089b" cid="DFF006" type="dfd-data-flow" name="Login Status &amp; Dashboard, Complete Student Academic Records" creator="" creation-date="11/23/2026 23:00:00" from="43251ffd1c67468293df2783c15338a4" to="14576f732c5d415b8d3a1c5a44ed52d2" />
+          <item id="14576f732c5d415b8d3a1c5a44ed52d2" cid="DFE001" type="dfd-external" name="Teacher(Administrator)" creator="" creation-date="11/23/2026 23:00:00" />
+          <item id="f05df57deef44e9998400c653168c497" cid="DFF008" type="dfd-data-flow" name="Published Lessons &amp; Assignments, Own Personal Grades Only" creator="" creation-date="11/23/2026 23:00:00" from="43251ffd1c67468293df2783c15338a4" to="831cba6dc6f8417088e916a05c371750" />
+          <item id="a7a46b6b0b88453f9221187166df1fec" cid="DFE003" type="dfd-external" name="Parent" creator="" creation-date="11/23/2026 23:00:00" />
+          <item id="dfd406d59cf5449eb1bd30c3985a7d3c" cid="DFF007" type="dfd-data-flow" name="Login Credentials, Lessons, Assignments &amp; Grades Request, Assignment Submission" creator="" creation-date="11/23/2026 23:00:00" from="831cba6dc6f8417088e916a05c371750" to="43251ffd1c67468293df2783c15338a4" />
+          <item id="831cba6dc6f8417088e916a05c371750" cid="DFE002" type="dfd-external" name="Student" creator="" creation-date="11/23/2026 23:00:00" />
+          <item id="fef1679ab20c406b8985209c2b081160" cid="DFF013" type="dfd-data-flow" name="Login Credentials, Linked Student Monitoring Request" creator="" creation-date="11/23/2026 23:00:00" from="a7a46b6b0b88453f9221187166df1fec" to="43251ffd1c67468293df2783c15338a4" />
+          <item id="642ffb3a0ae240f6aea57a40a52889e6" cid="DFF002" type="dfd-data-flow" name="Login Credentials, Student Registration &amp; Parent Linking, Lessons, Assignments &amp; Grades Data, Student Record Search Query" creator="" creation-date="11/23/2026 23:00:00" from="14576f732c5d415b8d3a1c5a44ed52d2" to="43251ffd1c67468293df2783c15338a4" />
+        </abstract-items>
+        <layer id="c7a008c986474a21ba117fe2bc757684" name="Default" visible="true" enabled="true" locked="false">
+          <item id="43251ffd1c67468293df2783c15338a4" iid="a93aa6a83bb64a968b2385f0d57b7619" creation-date="11/23/2026 23:00:00" order-index="0" type="entity">
+            <layout ax="400" ay="300" awidth="160" aheight="120" x="400" y="300" width="160" height="120" />
+          </item>
+          <item id="14576f732c5d415b8d3a1c5a44ed52d2" iid="e28493fbc2964e2e82d49507cb556e49" creation-date="11/23/2026 23:00:00" order-index="1" type="entity">
+            <layout ax="20" ay="325" awidth="160" aheight="70" x="20" y="325" width="160" height="70" />
+          </item>
+          <item id="831cba6dc6f8417088e916a05c371750" iid="aba04aa1bfa544388803b6734fc08c7a" creation-date="11/23/2026 23:00:00" order-index="2" type="entity">
+            <layout ax="780" ay="325" awidth="160" aheight="70" x="780" y="325" width="160" height="70" />
+          </item>
+          <item id="a7a46b6b0b88453f9221187166df1fec" iid="0894db8ae44746fc8f308e32e3b128ba" creation-date="11/23/2026 23:00:00" order-index="3" type="entity">
+            <layout ax="400" ay="620" awidth="160" aheight="70" x="400" y="620" width="160" height="70" />
+          </item>
+          <item id="642ffb3a0ae240f6aea57a40a52889e6" iid="9ae4e69ea3874e22b50d046b47da13f8" creation-date="11/23/2026 23:00:00" order-index="4" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="180" y1="345" x2="402" y2="345" start-border-pos="0.3214285714285714" end-border-pos="0.90625" start-local-pos="20" end-local-pos="45" name-position="3,-48">
+              <points>
+                <point x="180" y="345" />
+                <point x="402" y="345" />
+              </points>
+            </layout>
+            <relation from="14576f732c5d415b8d3a1c5a44ed52d2" from-iid="e28493fbc2964e2e82d49507cb556e49" to="43251ffd1c67468293df2783c15338a4" to-iid="a93aa6a83bb64a968b2385f0d57b7619" />
+          </item>
+          <item id="22b329e8c0654ce3affdca41c719089b" iid="670880dbbae34d21b5f9b9c9f1467571" creation-date="11/23/2026 23:00:00" order-index="5" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="402" y1="375" x2="180" y2="375" start-border-pos="0.84375" end-border-pos="0.4285714285714286" start-local-pos="75" end-local-pos="50" name-position="-10,35">
+              <points>
+                <point x="402" y="375" />
+                <point x="180" y="375" />
+              </points>
+            </layout>
+            <relation from="43251ffd1c67468293df2783c15338a4" from-iid="a93aa6a83bb64a968b2385f0d57b7619" to="14576f732c5d415b8d3a1c5a44ed52d2" to-iid="e28493fbc2964e2e82d49507cb556e49" />
+          </item>
+          <item id="dfd406d59cf5449eb1bd30c3985a7d3c" iid="f3466548c3e24de4b4016a44426c604e" creation-date="11/23/2026 23:00:00" order-index="6" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="780" y1="345" x2="557" y2="345" start-border-pos="0.9285714285714286" end-border-pos="0.34375" start-local-pos="20" end-local-pos="45" name-position="40,-45">
+              <points>
+                <point x="780" y="345" />
+                <point x="557" y="345" />
+              </points>
+            </layout>
+            <relation from="831cba6dc6f8417088e916a05c371750" from-iid="aba04aa1bfa544388803b6734fc08c7a" to="43251ffd1c67468293df2783c15338a4" to-iid="a93aa6a83bb64a968b2385f0d57b7619" />
+          </item>
+          <item id="f05df57deef44e9998400c653168c497" iid="3ecff0b6bc8446e1b30399f035472700" creation-date="11/23/2026 23:00:00" order-index="7" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="557" y1="375" x2="780" y2="375" start-border-pos="0.40625" end-border-pos="0.8214285714285714" start-local-pos="75" end-local-pos="50" name-position="17,14">
+              <points>
+                <point x="557" y="375" />
+                <point x="780" y="375" />
+              </points>
+            </layout>
+            <relation from="43251ffd1c67468293df2783c15338a4" from-iid="a93aa6a83bb64a968b2385f0d57b7619" to="831cba6dc6f8417088e916a05c371750" to-iid="aba04aa1bfa544388803b6734fc08c7a" />
+          </item>
+          <item id="fef1679ab20c406b8985209c2b081160" iid="463d688650c648acbdaa9d57eb4750fc" creation-date="11/23/2026 23:00:00" order-index="8" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="440" y1="620" x2="440" y2="411" start-border-pos="0.0625" end-border-pos="0.6875" start-local-pos="40" end-local-pos="40" name-position="-150,0">
+              <points>
+                <point x="440" y="620" />
+                <point x="440" y="411" />
+              </points>
+            </layout>
+            <relation from="a7a46b6b0b88453f9221187166df1fec" from-iid="0894db8ae44746fc8f308e32e3b128ba" to="43251ffd1c67468293df2783c15338a4" to-iid="a93aa6a83bb64a968b2385f0d57b7619" />
+          </item>
+          <item id="432b6da4a388415a9d1d6fb076c9ca59" iid="2c4bdfe70883481592cb4c39f9ad42bb" creation-date="11/23/2026 23:00:00" order-index="9" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="520" y1="411" x2="520" y2="620" start-border-pos="0.5625" end-border-pos="0.1875" start-local-pos="120" end-local-pos="120" name-position="150,0">
+              <points>
+                <point x="520" y="411" />
+                <point x="520" y="620" />
+              </points>
+            </layout>
+            <relation from="43251ffd1c67468293df2783c15338a4" from-iid="a93aa6a83bb64a968b2385f0d57b7619" to="a7a46b6b0b88453f9221187166df1fec" to-iid="0894db8ae44746fc8f308e32e3b128ba" />
+          </item>
+          <item id="88504406b13d478893bc73b5ee6f97f2" iid="f8fb5d9643494097ba885a524c29e39e" creation-date="11/23/2026 23:00:00" order-index="0" type="entity">
+            <layout ax="230" ay="735" awidth="200" aheight="70" x="230" y="735" width="200" height="70" />
+          </item>
+          <item id="5884ca07e592411ba63d3f1e54b2c3ed" iid="33b0607da65d48bdbdbd80a9feb0df39" creation-date="11/23/2026 23:00:00" order-index="1" type="entity">
+            <layout ax="560" ay="720" awidth="150" aheight="100" x="560" y="720" width="150" height="100" />
+          </item>
+          <item id="dfedfd86ac774ed183c2e9a5998fd7b8" iid="bff7ebf1bdc44da99d5660ec73859b6f" creation-date="11/23/2026 23:00:00" order-index="0" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="430" y1="770" x2="560" y2="770" start-border-pos="0.375" end-border-pos="0.875" start-local-pos="35" end-local-pos="50" name-position="0,-25">
+              <points>
+                <point x="430" y="770" />
+                <point x="560" y="770" />
+              </points>
+            </layout>
+            <relation />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>
