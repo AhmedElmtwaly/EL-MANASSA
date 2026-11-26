@@ -1,0 +1,513 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="14.70" multi-file="no" uid="simp494b040d93d5468dac38510f60378280" creation-date="11/23/2026 22:27:54">
+  <meta>
+    <name>El Manassa - ERD</name>
+    <authors> </authors>
+    <description />
+  </meta>
+  <counters diagrams="1" models="1">
+    <entity-names>
+      <counter>
+        <item-type type-id="lifeline" type="Lifeline" />
+        <value>5</value>
+      </counter>
+      <counter>
+        <item-type type-id="sequence-action" type="Message" />
+        <value>17</value>
+      </counter>
+      <counter>
+        <item-type type-id="activation-bar" type="Execution Specification" />
+        <value>31</value>
+      </counter>
+      <counter>
+        <item-type type-id="fragment" type="Fragment" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="dfd-process" type="Process" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="dfd-external" type="External" />
+        <value>5</value>
+      </counter>
+      <counter>
+        <item-type type-id="dfd-data-flow" type="Data Flow" />
+        <value>16</value>
+      </counter>
+      <counter>
+        <item-type type-id="actor" type="Actor" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="system-boundary" type="System Boundary" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="use-case" type="Use Case" />
+        <value>8</value>
+      </counter>
+      <counter>
+        <item-type type-id="erd-entity" type="Entity" />
+        <value>9</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="lifeline" type="Lifeline" />
+        <value>5</value>
+      </counter>
+      <counter>
+        <item-type type-id="sequence-action" type="Message" />
+        <value>17</value>
+      </counter>
+      <counter>
+        <item-type type-id="activation-bar" type="Execution Specification" />
+        <value>31</value>
+      </counter>
+      <counter>
+        <item-type type-id="fragment" type="Fragment" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="dfd-process" type="Process" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="dfd-external" type="External" />
+        <value>5</value>
+      </counter>
+      <counter>
+        <item-type type-id="dfd-data-flow" type="Data Flow" />
+        <value>16</value>
+      </counter>
+      <counter>
+        <item-type type-id="actor" type="Actor" />
+        <value>4</value>
+      </counter>
+      <counter>
+        <item-type type-id="system-boundary" type="System Boundary" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="use-case" type="Use Case" />
+        <value>9</value>
+      </counter>
+      <counter>
+        <item-type type-id="relationship" type="Association" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="property" type="Property" />
+        <value>5</value>
+      </counter>
+      <counter>
+        <item-type type-id="universal-connector" type="Universal Connector" />
+        <value>10</value>
+      </counter>
+      <counter>
+        <item-type type-id="include" type="Include" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="erd-entity" type="Entity" />
+        <value>9</value>
+      </counter>
+      <counter>
+        <item-type type-id="erd-relationship" type="Relationship" />
+        <value>4</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlUseCaseDiagram</type>
+        <value>2</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.Other.DataFlowDiagram</type>
+        <value>1</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlSequenceDiagram</type>
+        <value>1</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>2</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlActivityDiagram</type>
+        <value>1</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.Other.EntityRelationshipDiagram</type>
+        <value>2</value>
+      </counter>
+    </diagrams>
+    <fields />
+  </counters>
+  <alias-groups />
+  <management uid="md-527e2691251a45e4a7807e723e35b51d" name="" task-id-sequence="0">
+    <working-schedule uid="ws-72750ce917874fbaab457731cc66f9da" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+    <persons>
+      <person id="">
+        <first-name />
+        <last-name />
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+        <working-schedule uid="ws-af44c16437314bc7b87b3213885d2d50" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-1440d2fa95904fed9d3307830fa0b460" name="" order-index="-1" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <parameters />
+      <types>
+        <type id="VARCHAR(150)" name="VARCHAR(150)" />
+        <type id="1" name="1" />
+        <type id="1..*" name="1..*" />
+        <type id="DECIMAL(5,2)" name="DECIMAL(5,2)" />
+        <type id="0..*" name="0..*" />
+        <type id="VARCHAR(100)" name="VARCHAR(100)" />
+        <type id="DATETIME" name="DATETIME" />
+        <type id="ENUM" name="ENUM" />
+        <type id="VARCHAR(255)" name="VARCHAR(255)" />
+        <type id="TEXT" name="TEXT" />
+        <type id="INT" name="INT" />
+        <type id="0..1" name="0..1" />
+        <type id="VARCHAR(50)" name="VARCHAR(50)" />
+        <type id="VARCHAR(30)" name="VARCHAR(30)" />
+        <type id="VARCHAR(20)" name="VARCHAR(20)" />
+      </types>
+    </custom-types>
+  </types>
+  <items />
+  <models>
+    <model id="pec241caa78dd43d5af737c5c149a2f8a_298432354" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>11/23/2026 22:28:34</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="entity-relationship" id="p807e2fd9c18e46a7b7cfd6eca62ad52e_1007" name="Entity Relationship Diagram (ERD)" order-index="1" overview-order-index="0" uid="" name-style="" auto-routed-paths="false" default-line-style="default" view-location="15,-33" zoom="0.3619">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>11/24/2026 12:00:00</creation-date>
+          <change-date>11/24/2026 12:00:00</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="098a5053ae024eee929245d377953f33" cid="REL003" type="erd-relationship" name="receives" creation-date="11/24/2026 12:00:00" from="4d6bd6f8e89b4ac9b3eb950d2a85fcd8" to="3689870cff5746fa99f0c825fdea7c01">
+            <erd-relation type="Identifying" multiplicity-from="1" multiplicity-to="0..*">
+              <attribute-pairs>
+                <attribute-pair from-attribute="" to-attribute="" />
+              </attribute-pairs>
+            </erd-relation>
+          </item>
+          <item id="b7496a0c3c1e4396947eb6394bcd6043" cid="ENT004" type="erd-entity" name="USERS" creation-date="11/24/2026 12:00:00">
+            <entity description="" />
+            <attributes>
+              <attribute uid="a135c792670b74d9f8e1d68e77be22698" cid="EA017" name="user_id (PK)" type="INT" type-id="INT" nullable="false" creation-date="11/24/2026 12:00:00" />
+              <attribute uid="a75595a7b9c454176a332f45a3199636a" cid="EA018" name="username" type="VARCHAR(50)" type-id="VARCHAR(50)" nullable="false" creation-date="11/24/2026 12:00:00" />
+              <attribute uid="a9b33a2824c0847ac9563f819823f9a70" cid="EA019" name="password_hash" type="VARCHAR(255)" type-id="VARCHAR(255)" nullable="false" creation-date="11/24/2026 12:00:00" />
+              <attribute uid="a11d84029fbbd4520b0d19e3d03fc0e54" cid="EA020" name="full_name" type="VARCHAR(100)" type-id="VARCHAR(100)" nullable="false" creation-date="11/24/2026 12:00:00" />
+              <attribute uid="a6a94fb996d67485aa77ccb187a91e826" cid="EA021" name="role" type="ENUM" type-id="ENUM" nullable="false" creation-date="11/24/2026 12:00:00" />
+              <attribute uid="a849d21b58db4425697ef527b80d64a6d" cid="EA022" name="phone" type="VARCHAR(20)" type-id="VARCHAR(20)" nullable="true" creation-date="11/24/2026 12:00:00" />
+              <attribute uid="a81343f01dd6e4acdb40704482b123e1a" cid="EA023" name="grade_level" type="VARCHAR(30)" type-id="VARCHAR(30)" nullable="true" creation-date="11/24/2026 12:00:00" />
+              <attribute uid="a044de4ce86244c42ad9019525af53c59" cid="EA024" name="account_status" type="ENUM" type-id="ENUM" nullable="false" creation-date="11/24/2026 12:00:00" />
+              <attribute uid="a38912c1f93824e90995f86923e66c3fb" cid="EA025" name="created_at" type="DATETIME" type-id="DATETIME" nullable="false" creation-date="11/24/2026 12:00:00" />
+            </attributes>
+          </item>
+          <item id="4d6bd6f8e89b4ac9b3eb950d2a85fcd8" cid="ENT005" type="erd-entity" name="ASSIGNMENTS" creation-date="11/24/2026 12:00:00">
+            <entity description="" />
+            <attributes>
+              <attribute uid="aff223c39cb5f4388b9bc8119eb2ab151" cid="EA026" name="assignment_id (PK)" type="INT" type-id="INT" nullable="false" creation-date="11/24/2026 12:00:00" />
+              <attribute uid="a5d2a95ee1e4349c79605baff17983123" cid="EA027" name="teacher_id (FK)" type="INT" type-id="INT" nullable="false" creation-date="11/24/2026 12:00:00" />
+              <attribute uid="a25c6c77d6f614f32bec9b8de99ad49e3" cid="EA028" name="title" type="VARCHAR(150)" type-id="VARCHAR(150)" nullable="false" creation-date="11/24/2026 12:00:00" />
+              <attribute uid="adf36fa83547447f0b2d3f9b9e7ed1439" cid="EA029" name="description" type="TEXT" type-id="TEXT" nullable="true" creation-date="11/24/2026 12:00:00" />
+              <attribute uid="abf6ed2ef66994c12a32d18e8ee70b1ff" cid="EA030" name="due_date" type="DATETIME" type-id="DATETIME" nullable="false" creation-date="11/24/2026 12:00:00" />
+              <attribute uid="a45640a18915248b88f542ea79fdfc487" cid="EA031" name="status" type="ENUM" type-id="ENUM" nullable="false" creation-date="11/24/2026 12:00:00" />
+            </attributes>
+          </item>
+          <item id="051f0939f629478aa0d795c0d8988d18" cid="REL004" type="erd-relationship" name="parent" creation-date="11/24/2026 12:00:00" from="b7496a0c3c1e4396947eb6394bcd6043" to="cec97f24e35e46049e0fc037586ffa39">
+            <erd-relation type="Identifying" multiplicity-from="1" multiplicity-to="0..*">
+              <attribute-pairs>
+                <attribute-pair from-attribute="" to-attribute="" />
+              </attribute-pairs>
+            </erd-relation>
+          </item>
+          <item id="3689870cff5746fa99f0c825fdea7c01" cid="ENT002" type="erd-entity" name="STUDENT_ASSIGNMENTS" creation-date="11/24/2026 12:00:00">
+            <entity description="" />
+            <attributes>
+              <attribute uid="a8eda469f0c104636a63cb63cc7b4b7ef" cid="EA007" name="student_assignment_id (PK)" type="INT" type-id="INT" nullable="false" creation-date="11/24/2026 12:00:00" />
+              <attribute uid="a9535e3e7b909485ba21cb6364c3dd8ea" cid="EA008" name="assignment_id (FK)" type="INT" type-id="INT" nullable="false" creation-date="11/24/2026 12:00:00" />
+              <attribute uid="adfb4ad9b41ed40d79f16dfafa5fe2259" cid="EA009" name="student_id (FK)" type="INT" type-id="INT" nullable="false" creation-date="11/24/2026 12:00:00" />
+              <attribute uid="a95735ef428f347c89709e3b7b3d36dca" cid="EA010" name="file_url" type="VARCHAR(255)" type-id="VARCHAR(255)" nullable="true" creation-date="11/24/2026 12:00:00" />
+              <attribute uid="aefd34b6f1bff45d9a92d4fff63749414" cid="EA011" name="submitted_at" type="DATETIME" type-id="DATETIME" nullable="true" creation-date="11/24/2026 12:00:00" />
+              <attribute uid="a44196656767f49c5a0a7f3834a5c9087" cid="EA012" name="submission_status" type="ENUM" type-id="ENUM" nullable="false" creation-date="11/24/2026 12:00:00" />
+            </attributes>
+          </item>
+          <item id="ff473c7e7b18431689847735f0633bdb" cid="REL009" type="erd-relationship" name="is graded in" creation-date="11/24/2026 12:00:00" from="4d6bd6f8e89b4ac9b3eb950d2a85fcd8" to="4fd8762ee5784f5899963e6f67a81bcf">
+            <erd-relation type="Identifying" multiplicity-from="0..1" multiplicity-to="0..*">
+              <attribute-pairs>
+                <attribute-pair from-attribute="" to-attribute="" />
+              </attribute-pairs>
+            </erd-relation>
+          </item>
+          <item id="79a17d6611de48faa002f4003c0bce1c" cid="REL006" type="erd-relationship" name="creates" creation-date="11/24/2026 12:00:00" from="b7496a0c3c1e4396947eb6394bcd6043" to="4d6bd6f8e89b4ac9b3eb950d2a85fcd8">
+            <erd-relation type="Identifying" multiplicity-from="1" multiplicity-to="0..*">
+              <attribute-pairs>
+                <attribute-pair from-attribute="" to-attribute="" />
+              </attribute-pairs>
+            </erd-relation>
+          </item>
+          <item id="0bcc4142d2924ae9906376a064bfcfa9" cid="ENT008" type="erd-entity" name="Notes / ملاحظات" creation-date="11/25/2026 07:00:00">
+            <entity description="" />
+            <attributes>
+              <attribute uid="aed7f3c4dd77e4fec8ab69b5650d6da61" cid="EA045" name="• USERS.role: Teacher | Student | Parent" type="" type-id="" nullable="true" creation-date="11/25/2026 07:00:00" />
+              <attribute uid="a594303bc63f9490991deb73b032e3fc8" cid="EA046" name="• USERS.account_status: Active | Inactive |" type="" type-id="" nullable="true" creation-date="11/25/2026 07:00:00" />
+              <attribute uid="a62ae233589a34b2b99d909a3c3340bdf" cid="EA047" name="   Suspended" type="" type-id="" nullable="true" creation-date="11/25/2026 07:00:00" />
+              <attribute uid="ad37526779b7d428891ed79af6dc4e743" cid="EA048" name="• ASSIGNMENTS.status: Draft | Published |" type="" type-id="" nullable="true" creation-date="11/25/2026 07:00:00" />
+              <attribute uid="a583becbca23e4ed58fbaeccb5ad362da" cid="EA049" name="   Closed" type="" type-id="" nullable="true" creation-date="11/25/2026 07:00:00" />
+              <attribute uid="a356f2ed1e4874cde9cd4fdcfbaf6cf9b" cid="EA050" name="• STUDENT_ASSIGNMENTS.submission_status:" type="" type-id="" nullable="true" creation-date="11/25/2026 07:00:00" />
+              <attribute uid="a3155f893c095421b939b0049216063cb" cid="EA051" name="   Not Submitted | Submitted | Late" type="" type-id="" nullable="true" creation-date="11/25/2026 07:00:00" />
+              <attribute uid="a70080328379a46d1ad7262914ef2ca29" cid="EA052" name="• GRADES.assignment_id is nullable" type="" type-id="" nullable="true" creation-date="11/25/2026 07:00:00" />
+              <attribute uid="a09aa820c47c94c8fb4ca000ec1d671de" cid="EA053" name="   (general grade not tied to an assignment)" type="" type-id="" nullable="true" creation-date="11/25/2026 07:00:00" />
+              <attribute uid="ac256d4a03cba4d3bbf03ced950566bcc" cid="EA054" name="• Only the Teacher creates/modifies LESSONS," type="" type-id="" nullable="true" creation-date="11/25/2026 07:00:00" />
+              <attribute uid="aa0c8794665a04667bf53f0e061992f8a" cid="EA055" name="   ASSIGNMENTS and GRADES (BR-02)" type="" type-id="" nullable="true" creation-date="11/25/2026 07:00:00" />
+              <attribute uid="abadc5e52c98c473abb0a70f561fa1e86" cid="EA056" name="• PARENT_STUDENT_LINKS ties a Parent to a" type="" type-id="" nullable="true" creation-date="11/25/2026 07:00:00" />
+              <attribute uid="a7b21d8b7a3e940eb90b2301e9a36094b" cid="EA057" name="   Student; Parents see linked data only (BR-04)" type="" type-id="" nullable="true" creation-date="11/25/2026 07:00:00" />
+              <attribute uid="affe4172c3d174be7998d46169ce59fa8" cid="EA058" name="• Students see their own GRADES only (BR-03)" type="" type-id="" nullable="true" creation-date="11/25/2026 07:00:00" />
+            </attributes>
+          </item>
+          <item id="4fd8762ee5784f5899963e6f67a81bcf" cid="ENT006" type="erd-entity" name="GRADES" creation-date="11/24/2026 12:00:00">
+            <entity description="" />
+            <attributes>
+              <attribute uid="af0a90d4f69cb4e28b24a9fa9aaf6aa7b" cid="EA032" name="grade_id (PK)" type="INT" type-id="INT" nullable="false" creation-date="11/24/2026 12:00:00" />
+              <attribute uid="a0d1ed87acd734d209a8e017ab95c07d0" cid="EA033" name="student_id (FK)" type="INT" type-id="INT" nullable="false" creation-date="11/24/2026 12:00:00" />
+              <attribute uid="a2e36fdb7ffdc4412b0acdd113de4143f" cid="EA034" name="teacher_id (FK)" type="INT" type-id="INT" nullable="false" creation-date="11/24/2026 12:00:00" />
+              <attribute uid="a0ec9fcee1ca0436eaf8b2629a29c2380" cid="EA035" name="assignment_id (FK)" type="INT" type-id="INT" nullable="true" creation-date="11/24/2026 12:00:00" />
+              <attribute uid="ad9c4f86796b045a9ab821fe32e67e09c" cid="EA036" name="score" type="DECIMAL(5,2)" type-id="DECIMAL(5,2)" nullable="false" creation-date="11/24/2026 12:00:00" />
+              <attribute uid="a7954ca8eaaf44c1ab95ef095cacd8ad6" cid="EA037" name="max_score" type="DECIMAL(5,2)" type-id="DECIMAL(5,2)" nullable="false" creation-date="11/24/2026 12:00:00" />
+              <attribute uid="a94bdc344254249a3a9b18d48da5e1b8a" cid="EA038" name="remarks" type="VARCHAR(255)" type-id="VARCHAR(255)" nullable="true" creation-date="11/24/2026 12:00:00" />
+              <attribute uid="a1a3aa94ffe474f3381a64be3f46033fb" cid="EA039" name="recorded_at" type="DATETIME" type-id="DATETIME" nullable="false" creation-date="11/24/2026 12:00:00" />
+            </attributes>
+          </item>
+          <item id="c37cfda590c740cba74230f99031353e" cid="ENT001" type="erd-entity" name="LESSONS" creation-date="11/24/2026 12:00:00">
+            <entity description="" />
+            <attributes>
+              <attribute uid="a386bb4ce65e64638be4066a068e34842" cid="EA001" name="lesson_id (PK)" type="INT" type-id="INT" nullable="false" creation-date="11/24/2026 12:00:00" />
+              <attribute uid="ae0a7d91e7b534626849f2bd55e1de52a" cid="EA002" name="teacher_id (FK)" type="INT" type-id="INT" nullable="false" creation-date="11/24/2026 12:00:00" />
+              <attribute uid="a8d47f201ce7b4c1a8a6e2f04500d1d96" cid="EA003" name="title" type="VARCHAR(150)" type-id="VARCHAR(150)" nullable="false" creation-date="11/24/2026 12:00:00" />
+              <attribute uid="a50cc2eb04c874ad4906dc53ea1b3784c" cid="EA004" name="description" type="TEXT" type-id="TEXT" nullable="true" creation-date="11/24/2026 12:00:00" />
+              <attribute uid="a09afe8d955914b65869c62f6b5eec77a" cid="EA005" name="content_url" type="VARCHAR(255)" type-id="VARCHAR(255)" nullable="true" creation-date="11/24/2026 12:00:00" />
+              <attribute uid="a4571e4e4cbeb47d9be2b194e7b0571ad" cid="EA006" name="uploaded_at" type="DATETIME" type-id="DATETIME" nullable="false" creation-date="11/24/2026 12:00:00" />
+            </attributes>
+          </item>
+          <item id="54c0648afc4244489dd0ded79fd35ca0" cid="REL001" type="erd-relationship" name="creates" creation-date="11/24/2026 12:00:00" from="b7496a0c3c1e4396947eb6394bcd6043" to="c37cfda590c740cba74230f99031353e">
+            <erd-relation type="Identifying" multiplicity-from="1" multiplicity-to="0..*">
+              <attribute-pairs>
+                <attribute-pair from-attribute="" to-attribute="" />
+              </attribute-pairs>
+            </erd-relation>
+          </item>
+          <item id="2e0022939eec47248bc8a06308608663" cid="REL007" type="erd-relationship" name="student" creation-date="11/24/2026 12:00:00" from="b7496a0c3c1e4396947eb6394bcd6043" to="4fd8762ee5784f5899963e6f67a81bcf">
+            <erd-relation type="Identifying" multiplicity-from="1" multiplicity-to="0..*">
+              <attribute-pairs>
+                <attribute-pair from-attribute="" to-attribute="" />
+              </attribute-pairs>
+            </erd-relation>
+          </item>
+          <item id="cec97f24e35e46049e0fc037586ffa39" cid="ENT003" type="erd-entity" name="PARENT_STUDENT_LINKS" creation-date="11/24/2026 12:00:00">
+            <entity description="" />
+            <attributes>
+              <attribute uid="a3e5c2c6807bf4a82a283bc2132d9ff5e" cid="EA013" name="link_id (PK)" type="INT" type-id="INT" nullable="false" creation-date="11/24/2026 12:00:00" />
+              <attribute uid="a8022943fe6bd40e0a26a419f1eb73e9c" cid="EA014" name="parent_id (FK)" type="INT" type-id="INT" nullable="false" creation-date="11/24/2026 12:00:00" />
+              <attribute uid="a26289f378ddf441196d49e7b8c607bb8" cid="EA015" name="student_id (FK)" type="INT" type-id="INT" nullable="false" creation-date="11/24/2026 12:00:00" />
+              <attribute uid="a2de346d838224b71a88af4880c581a92" cid="EA016" name="linked_at" type="DATETIME" type-id="DATETIME" nullable="false" creation-date="11/24/2026 12:00:00" />
+            </attributes>
+          </item>
+          <item id="75fdd1e49ccc43c490cb356509de3bd5" cid="REL008" type="erd-relationship" name="teacher" creation-date="11/24/2026 12:00:00" from="b7496a0c3c1e4396947eb6394bcd6043" to="4fd8762ee5784f5899963e6f67a81bcf">
+            <erd-relation type="Identifying" multiplicity-from="1" multiplicity-to="0..*">
+              <attribute-pairs>
+                <attribute-pair from-attribute="" to-attribute="" />
+              </attribute-pairs>
+            </erd-relation>
+          </item>
+          <item id="3e40c797e4b446988610d86b1df99954" cid="REL002" type="erd-relationship" name="submits" creation-date="11/24/2026 12:00:00" from="b7496a0c3c1e4396947eb6394bcd6043" to="3689870cff5746fa99f0c825fdea7c01">
+            <erd-relation type="Identifying" multiplicity-from="1" multiplicity-to="0..*">
+              <attribute-pairs>
+                <attribute-pair from-attribute="" to-attribute="" />
+              </attribute-pairs>
+            </erd-relation>
+          </item>
+          <item id="5079311b435e4012aafeb5075e58b03d" cid="REL005" type="erd-relationship" name="student" creation-date="11/24/2026 12:00:00" from="b7496a0c3c1e4396947eb6394bcd6043" to="cec97f24e35e46049e0fc037586ffa39">
+            <erd-relation type="Identifying" multiplicity-from="1" multiplicity-to="0..*">
+              <attribute-pairs>
+                <attribute-pair from-attribute="" to-attribute="" />
+              </attribute-pairs>
+            </erd-relation>
+          </item>
+          <item id="1012cafab5ec4508ada958558399ab47" cid="ENT007" type="erd-entity" name="Notation / رموز العلاقات" creation-date="11/25/2026 07:00:00">
+            <entity description="" />
+            <attributes>
+              <attribute uid="af2694c0a82334ebe8ccb6ccfddb3f1a8" cid="EA040" name="exactly one" type="1" type-id="1" nullable="true" creation-date="11/25/2026 07:00:00" />
+              <attribute uid="a63a20644dcff4878845965179736d1ba" cid="EA041" name="zero or many" type="0..*" type-id="0..*" nullable="true" creation-date="11/25/2026 07:00:00" />
+              <attribute uid="a1501acbd460e4e0bb766399352bfd549" cid="EA042" name="one or many" type="1..*" type-id="1..*" nullable="true" creation-date="11/25/2026 07:00:00" />
+              <attribute uid="a9edac3f359744e1c880130015a413dcd" cid="EA043" name="zero or one" type="0..1" type-id="0..1" nullable="true" creation-date="11/25/2026 07:00:00" />
+              <attribute uid="a91719072e2ff419c9dc1570902615910" cid="EA044" name="PK = primary key    FK = foreign key" type="" type-id="" nullable="true" creation-date="11/25/2026 07:00:00" />
+            </attributes>
+          </item>
+        </abstract-items>
+        <layer id="bbb05f54daa04c8fa56faf1760d4d93c" name="Default" visible="true" enabled="true" locked="false">
+          <item id="c37cfda590c740cba74230f99031353e" iid="26a809ca98a647a691aebb2b862aa42b" creation-date="11/25/2026 07:00:00" order-index="0" type="entity">
+            <layout ax="60" ay="100" awidth="300" aheight="166" x="60" y="100" width="300" height="166" />
+            <erd-entity show-nullability="true" />
+          </item>
+          <item id="3689870cff5746fa99f0c825fdea7c01" iid="d507e3c7c416456ebfcca2c5ae25e86e" creation-date="11/25/2026 07:00:00" order-index="1" type="entity">
+            <layout ax="620" ay="100" awidth="300" aheight="166" x="620" y="100" width="300" height="166" />
+            <erd-entity show-nullability="true" />
+          </item>
+          <item id="cec97f24e35e46049e0fc037586ffa39" iid="76059565d85d4141a0ec2d575687a81b" creation-date="11/25/2026 07:00:00" order-index="2" type="entity">
+            <layout ax="60" ay="330" awidth="300" aheight="122" x="60" y="330" width="300" height="122" />
+            <erd-entity show-nullability="true" />
+          </item>
+          <item id="b7496a0c3c1e4396947eb6394bcd6043" iid="8325ce720454495987c320e9f2eae7f3" creation-date="11/25/2026 07:00:00" order-index="3" type="entity">
+            <layout ax="500" ay="330" awidth="300" aheight="232" x="500" y="330" width="300" height="232" />
+            <erd-entity show-nullability="true" />
+          </item>
+          <item id="4d6bd6f8e89b4ac9b3eb950d2a85fcd8" iid="4867de2dbcfb480595c5bb56793e3af7" creation-date="11/25/2026 07:00:00" order-index="4" type="entity">
+            <layout ax="1100" ay="330" awidth="300" aheight="166" x="1100" y="330" width="300" height="166" />
+            <erd-entity show-nullability="true" />
+          </item>
+          <item id="4fd8762ee5784f5899963e6f67a81bcf" iid="450b30c631744018978ebfb974f4e4e8" creation-date="11/25/2026 07:00:00" order-index="5" type="entity">
+            <layout ax="500" ay="720" awidth="300" aheight="210" x="500" y="720" width="300" height="210" />
+            <erd-entity show-nullability="true" />
+          </item>
+          <item id="1012cafab5ec4508ada958558399ab47" iid="6f0e2a6dcd1b413d978c572df5b35d5a" creation-date="11/25/2026 07:00:00" order-index="6" type="entity">
+            <layout ax="-129" ay="680" awidth="380" aheight="144" x="-129" y="680" width="380" height="144" />
+            <erd-entity show-nullability="false" />
+          </item>
+          <item id="0bcc4142d2924ae9906376a064bfcfa9" iid="51686e32d5834157bbca0517ac346950" creation-date="11/25/2026 07:00:00" order-index="7" type="entity">
+            <layout ax="1413" ay="616" awidth="420" aheight="342" x="1413" y="616" width="420" height="342" />
+            <erd-entity show-nullability="false" />
+          </item>
+          <item id="54c0648afc4244489dd0ded79fd35ca0" iid="e77ce850007545218c081f34d1c7bda3" creation-date="11/25/2026 07:00:00" order-index="8" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="560" y1="330" x2="210" y2="266" start-border-pos="0.05" end-border-pos="0.625" start-local-pos="60" end-local-pos="150" name-position="0,20">
+              <points>
+                <point x="560" y="330" />
+                <point x="560" y="295" />
+                <point x="210" y="295" />
+                <point x="210" y="266" />
+              </points>
+            </layout>
+            <relation from="b7496a0c3c1e4396947eb6394bcd6043" from-iid="8325ce720454495987c320e9f2eae7f3" to="c37cfda590c740cba74230f99031353e" to-iid="26a809ca98a647a691aebb2b862aa42b" />
+          </item>
+          <item id="3e40c797e4b446988610d86b1df99954" iid="a87e79c89c1f49e68cff4fd41e4ddad1" creation-date="11/25/2026 07:00:00" order-index="9" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="700" y1="330" x2="700" y2="266" start-border-pos="0.1667" end-border-pos="0.6833" start-local-pos="200" end-local-pos="80" name-position="0,20">
+              <points>
+                <point x="700" y="330" />
+                <point x="700" y="266" />
+              </points>
+            </layout>
+            <relation from="b7496a0c3c1e4396947eb6394bcd6043" from-iid="8325ce720454495987c320e9f2eae7f3" to="3689870cff5746fa99f0c825fdea7c01" to-iid="d507e3c7c416456ebfcca2c5ae25e86e" />
+          </item>
+          <item id="098a5053ae024eee929245d377953f33" iid="218835008d6744b3a9cb99ad32284c3c" creation-date="11/25/2026 07:00:00" order-index="10" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1150" y1="330" x2="920" y2="165" start-border-pos="0.0417" end-border-pos="0.3479" start-local-pos="50" end-local-pos="65" name-position="0,20">
+              <points>
+                <point x="1150" y="330" />
+                <point x="1150" y="165" />
+                <point x="920" y="165" />
+              </points>
+            </layout>
+            <relation from="4d6bd6f8e89b4ac9b3eb950d2a85fcd8" from-iid="4867de2dbcfb480595c5bb56793e3af7" to="3689870cff5746fa99f0c825fdea7c01" to-iid="d507e3c7c416456ebfcca2c5ae25e86e" />
+          </item>
+          <item id="051f0939f629478aa0d795c0d8988d18" iid="f81ac4585dd24917a37b810a07f7dc5f" creation-date="11/25/2026 07:00:00" order-index="11" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="500" y1="385" x2="360" y2="385" start-border-pos="0.9407" end-border-pos="0.3627" start-local-pos="55" end-local-pos="55" name-position="0,20">
+              <points>
+                <point x="500" y="385" />
+                <point x="360" y="385" />
+              </points>
+            </layout>
+            <relation from="b7496a0c3c1e4396947eb6394bcd6043" from-iid="8325ce720454495987c320e9f2eae7f3" to="cec97f24e35e46049e0fc037586ffa39" to-iid="76059565d85d4141a0ec2d575687a81b" />
+          </item>
+          <item id="5079311b435e4012aafeb5075e58b03d" iid="11ea9be78dc548c388ceee1922fd10fa" creation-date="11/25/2026 07:00:00" order-index="12" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="500" y1="425" x2="360" y2="425" start-border-pos="0.8976" end-border-pos="0.4447" start-local-pos="95" end-local-pos="95" name-position="0,20">
+              <points>
+                <point x="500" y="425" />
+                <point x="360" y="425" />
+              </points>
+            </layout>
+            <relation from="b7496a0c3c1e4396947eb6394bcd6043" from-iid="8325ce720454495987c320e9f2eae7f3" to="cec97f24e35e46049e0fc037586ffa39" to-iid="76059565d85d4141a0ec2d575687a81b" />
+          </item>
+          <item id="79a17d6611de48faa002f4003c0bce1c" iid="df06c2f2c6aa40c1bdbe105d408c30fc" creation-date="11/25/2026 07:00:00" order-index="13" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="800" y1="400" x2="1100" y2="400" start-border-pos="0.3254" end-border-pos="0.8946" start-local-pos="70" end-local-pos="70" name-position="0,20">
+              <points>
+                <point x="800" y="400" />
+                <point x="1100" y="400" />
+              </points>
+            </layout>
+            <relation from="b7496a0c3c1e4396947eb6394bcd6043" from-iid="8325ce720454495987c320e9f2eae7f3" to="4d6bd6f8e89b4ac9b3eb950d2a85fcd8" to-iid="4867de2dbcfb480595c5bb56793e3af7" />
+          </item>
+          <item id="2e0022939eec47248bc8a06308608663" iid="10c525eaade84bc0bcdb57a98e9947af" creation-date="11/25/2026 07:00:00" order-index="14" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="560" y1="562" x2="560" y2="720" start-border-pos="0.7" end-border-pos="0.05" start-local-pos="60" end-local-pos="60" name-position="0,20">
+              <points>
+                <point x="560" y="562" />
+                <point x="560" y="720" />
+              </points>
+            </layout>
+            <relation from="b7496a0c3c1e4396947eb6394bcd6043" from-iid="8325ce720454495987c320e9f2eae7f3" to="4fd8762ee5784f5899963e6f67a81bcf" to-iid="450b30c631744018978ebfb974f4e4e8" />
+          </item>
+          <item id="75fdd1e49ccc43c490cb356509de3bd5" iid="50549fcf77084dc79634535695592b3e" creation-date="11/25/2026 07:00:00" order-index="15" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="740" y1="562" x2="740" y2="720" start-border-pos="0.55" end-border-pos="0.2" start-local-pos="240" end-local-pos="240" name-position="0,20">
+              <points>
+                <point x="740" y="562" />
+                <point x="740" y="720" />
+              </points>
+            </layout>
+            <relation from="b7496a0c3c1e4396947eb6394bcd6043" from-iid="8325ce720454495987c320e9f2eae7f3" to="4fd8762ee5784f5899963e6f67a81bcf" to-iid="450b30c631744018978ebfb974f4e4e8" />
+          </item>
+          <item id="ff473c7e7b18431689847735f0633bdb" iid="15eaa71916934f20a3927fd4932edd05" creation-date="11/25/2026 07:00:00" order-index="16" type="relation">
+            <layout start-role-position="25,15" end-role-position="25,-15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1250" y1="496" x2="800" y2="855" start-border-pos="0.625" end-border-pos="0.4107" start-local-pos="150" end-local-pos="135" name-position="0,20">
+              <points>
+                <point x="1250" y="496" />
+                <point x="1250" y="855" />
+                <point x="800" y="855" />
+              </points>
+            </layout>
+            <relation from="4d6bd6f8e89b4ac9b3eb950d2a85fcd8" from-iid="4867de2dbcfb480595c5bb56793e3af7" to="4fd8762ee5784f5899963e6f67a81bcf" to-iid="450b30c631744018978ebfb974f4e4e8" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>
